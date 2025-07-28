@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
 </head>
-<body>
-    <h1>Feedback Form</h1>
-  ⭐⭐⭐⭐
-    <h4>What Would you like to share with us.</h4>
-    <form>
-      <input list="techoption"/>
+<body background="../images/b2.jpg">
 
-      <datalist id="techoption">
-        <option>Choose feedback:</option>
-        <option>technical error</option>
-        <option>user interface</option>
-      </datalist>
-    </form>
-    <h5>which techmical error did you experience?</h5>
-    <form>
-      <input type="text">
-      <br/>
-      <br/>
-    if you need assistance with your Tommy Hilfiger product (s)and/or service,please click<br/>here to contact us.
-    <br/>
-    <br/>
-    <form>
-      <input type="button" value="submit"/>
-    </form>
-    
-  
-    
-      
-    
+  <table width="100%">
+    <tr>
+      <td align="center">
+        <h1>Feedback Form</h1>
+        ⭐⭐⭐⭐
+        <h4>What would you like to share with us?</h4>
+
+        <form action="contact.html">
+          <label for="feedback-type">Choose feedback:</label><br>
+          <input list="techoption" id="feedback-type" name="feedback-type"><br><br>
+
+          <datalist id="techoption">
+            <option value="Technical error">
+            <option value="User interface">
+          </datalist>
+
+          <h5>Which technical error did you experience?</h5>
+          <input type="text" name="error-details"><br><br>
+
+          If you need assistance with your Tommy Hilfiger product(s) and/or service,<br>
+          please click here to contact us.
+          <br><br>
+
+          <input type="submit" value="Contact us">
+        </form>
+      </td>
+    </tr>
+  </table>
+<footer><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <hr> <center> 
+    <p>&copy; 2025 Online Quiz Platform. All rights reserved.</p>
+  </center></footer>
 </body>
 </html>
